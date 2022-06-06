@@ -1,9 +1,9 @@
 function scan(arr) {
-  let count = 0;
+  const arr1 = [];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === "contraband") {
-      count++;
+      arr1.push(i);
     }
   }
-  return count;
+  return arr1;
 }
